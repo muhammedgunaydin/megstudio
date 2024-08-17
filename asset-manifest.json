@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/megstudio/static/css/main.345c3112.css",
+    "main.js": "/megstudio/static/js/main.e004319d.js",
+    "static/js/453.58083ffe.chunk.js": "/megstudio/static/js/453.58083ffe.chunk.js",
+    "static/media/backg.png": "/megstudio/static/media/backg.9b6c712a9e6825c15870.png",
+    "index.html": "/megstudio/index.html",
+    "main.345c3112.css.map": "/megstudio/static/css/main.345c3112.css.map",
+    "main.e004319d.js.map": "/megstudio/static/js/main.e004319d.js.map",
+    "453.58083ffe.chunk.js.map": "/megstudio/static/js/453.58083ffe.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.345c3112.css",
+    "static/js/main.e004319d.js"
+  ]
+}
