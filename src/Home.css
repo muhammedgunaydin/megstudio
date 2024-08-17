@@ -1,0 +1,89 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.Home {
+  position: relative;
+  text-align: center;
+  background-color: #000; /* Siyah arka plan */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white; /* Beyaz yazı */
+  overflow-x: hidden;
+
+}
+
+.Home-header {
+  position: absolute;
+  padding-top: 190px;
+}
+
+.indextext {
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.flex-grid-center {
+	display: flex;
+	justify-content: center;
+	
+}
+
+.fuller-button {
+	color: rgba(255,255,255,1);
+	background: none;
+	border-radius: 0;
+	padding: 1.2em 5em;
+	letter-spacing: 0.35em;
+	font-size: 0.7em;
+	transition: background-color 0.3s, box-shadow 0.3s, color 0.3s;
+	margin: 1em;
+  text-decoration: none;
+	
+	&.blue {
+		box-shadow: inset 0 0 1em rgba(0,170,170,0.5), 0 0 1em rgba(0,170,170,0.5);
+		border: #0dd solid 2px;
+	}
+	
+	&.blue:hover {
+		background-color: #0dd;
+		box-shadow: inset 0 0 0 rgba(0,170,170,0.5), 0 0 1.5em rgba(0,170,170,0.7);
+	}
+	
+	&.red {
+		box-shadow: inset 0 0 1em rgba(251,81,81,0.4), 0 0 1em rgba(251,81,81,0.4);
+		border: #fb5454 solid 2px;
+	}
+	
+	&.red:hover {
+		background-color: #fb5454;
+		box-shadow: inset 0 0 0 rgba(251,81,81,0.4), 0 0 1.5em rgba(251,81,81,0.6);
+	}
+	
+	&.white {
+		box-shadow: inset 0 0 0.8em rgba(255,255,255,0.3), 0 0 0.8em rgba(255,255,255,0.3);
+		border: #fff solid 2px;
+	}
+	
+	&.white:hover {
+		color: rgba(0,0,0,0.8);
+		background-color: #fff;
+		box-shadow: inset 0 0 0 rgba(255,255,255,0.3), 0 0 1.2em rgba(255,255,255,0.5);
+	}
+}

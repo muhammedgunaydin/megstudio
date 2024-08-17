@@ -1,0 +1,66 @@
+.navbar {
+  width: 100%;
+  background-color: black; /* Koyu gri arka plan */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  position: fixed;
+  top: 0;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-left: 230px;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+.logo-image {
+  height: 50px;
+  width: 60px;
+  padding-right: 5px;
+}
+
+.logotext {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+
+}
+
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: 0.25s ease;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin-right: 280px;
+
+  li {
+    margin-left: 0.75em;
+    margin-right: 0.75em;
+    font-size: 20.5px;
+  }
+
+  &:hover {
+    a {
+      color: grey;
+      &:hover {
+        color: white;
+        box-shadow: 0 2px 0 0 currentcolor;
+      }
+    }
+  }
+}
