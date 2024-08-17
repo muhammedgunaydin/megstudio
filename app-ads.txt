@@ -1,0 +1,8 @@
+# App 1 - Google Play Store ID: com.megstudio.mentor
+google.com, pub-2798556376519151, DIRECT, f08c47fec0942fa0
+
+# App 2 - Google Play Store ID: com.megstudio.bullco
+google.com, pub-2798556376519151, DIRECT, f08c47fec0942fa0
+
+# App 3 - Google Play Store ID: com.megstudio.zixo
+google.com, pub-2798556376519151, DIRECT, f08c47fec0942fa0
