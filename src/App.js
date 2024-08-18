@@ -6,7 +6,7 @@ import AppAdsTxt from './AppAdsTxt';
 
 function App() {
   return (
-    <Router basename="/megstudio">
+    <Router>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/app-ads.txt" element={<AppAdsTxt />} />

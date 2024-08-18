@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
 import './Home.css'
 
@@ -11,8 +12,8 @@ function Home() {
           been growing since 2022.
         </p>
         <div class="flex-grid-center">
-          <a href='https://play.google.com/store/apps/dev?id=9201619571273451657&hl=tr&gl=US' target='_blank' class="pure-button fuller-button white">PLAY STORE</a>
-          <a href='https://t.me/CarlSuo' target='_blank' class="pure-button fuller-button blue">TELEGRAM</a>
+          <a href='https://play.google.com/store/apps/dev?id=9201619571273451657&hl=tr&gl=US' target='_blank' class="pure-button fuller-button white" rel="noreferrer">PLAY STORE</a>
+          <a href='https://t.me/CarlSuo' target='_blank' class="pure-button fuller-button blue" rel="noreferrer">TELEGRAM</a>
         </div>
         <div class="flex-grid-center">
         <a class="pure-button fuller-button red">GMAIL: mamygnydn@gmail.com</a>
