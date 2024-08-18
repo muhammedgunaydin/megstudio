@@ -15,7 +15,7 @@ function Home() {
           <a href='https://t.me/CarlSuo' target='_blank' class="pure-button fuller-button blue">TELEGRAM</a>
         </div>
         <div class="flex-grid-center">
-        <a class="pure-button fuller-button red">GMAIL:mamygnydn@gmail.com</a>
+        <a class="pure-button fuller-button red">GMAIL: mamygnydn@gmail.com</a>
         </div>
       </header>
     </div>
